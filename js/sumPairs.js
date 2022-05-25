@@ -8,8 +8,8 @@ exports.sumPairs = function(array, target) {
       }	
     }	
     if (result.length > 0){	
-      return result;	
+        return result;	
     }	
     return('unable to find pairs');
 };
-//console.log(exports.sumPairs([1,2,3,4,5], 9))
+//console.log(exports.sumPairs([1,2,3,4,5], 7))
